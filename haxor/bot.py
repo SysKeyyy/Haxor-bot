@@ -38,6 +38,8 @@ clear = Clear channel.
 ban = Ban member.
 kick = Kick member.
 ```
+**Github**
+**https://github.com/ssawanoo/Haxor-bot**
 """
 client = commands.Bot(command_prefix = ["#", "haxor"])
 client.remove_command("help")
@@ -125,7 +127,7 @@ class bot():
 
     @client.command(aliases=["hello", "hell0", "hi"])
     async def Hello(ctx):
-        await ctx.send(embed=discord.Embed (color=0x9b59b6, description="**Hello There 😊**"))
+        await ctx.send(embed=discord.Embed (color=0x9b59b6, description="**Hello There 😊** \n **Github >> https://github.com/ssawanoo/Haxor-bot**"))
 
     @client.command()
     @commands.has_role("Moderator")
@@ -154,4 +156,4 @@ class bot():
         await ctx.send(embed=discord.Embed (color=0x9b59b6, description=(date.today())))
 
 
-    client.run("token here")
+    client.run("BOT TOKEN HERE")
