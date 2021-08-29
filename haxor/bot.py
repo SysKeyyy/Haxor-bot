@@ -183,4 +183,4 @@ class bot():
         await ctx.send(embed=discord.Embed (color=0x9b59b6, description=(date.today())))
 
 
-    client.run("ODQzMTA1NzA5MTI2MDU4MDQ1.YJ_BYQ.bXJNSQF_KuEpttVQ-1QqRd-89wg")
+    client.run("BOT_TOKEN_HERE")
